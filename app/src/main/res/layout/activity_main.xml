@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff0"
+    android:orientation="vertical"
+    tools:context="study.com.progressbarandseekbardemo.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f00"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="显示进度条"/>
+
+    <TextView
+        android:id="@+id/tv_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#f00"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="关闭进度条"/>
+
+    <SeekBar
+        android:id="@+id/sk_position"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20.0px"
+        android:layout_marginRight="20.0px"
+        android:max="100"
+        android:maxHeight="20.0px"
+        android:minHeight="20.0px"
+        android:progress="12"
+        android:secondaryProgress="34"
+        android:progressDrawable="@drawable/audio_seekbar"
+        />
+
+
+
+</LinearLayout>

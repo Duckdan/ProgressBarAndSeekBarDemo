@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ProgressDialogStyle" parent="@android:style/Theme.Dialog">
+        <!--这个说明提示框是否有边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--这个说明提示框是否是浮动的-->
+        <item name="android:windowIsFloating">true</item>
+        <!--这个说明提示框是否是透明的-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--这个说明提示框是否有标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--这个说明提示框的背景颜色是什么-->
+        <item name="android:windowBackground">@null</item>
+        <!--遮罩：false为不添加遮罩，true为添加遮罩-->
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+</resources>
